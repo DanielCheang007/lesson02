@@ -1,0 +1,18 @@
+#canvas {
+  width: 400px;
+  height: 400px;
+  outline: 1px solid;
+}
+
+.cell {
+  outline: 1px solid;
+  float: left;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell.hide {
+  text-indent: -9999px;
+}
